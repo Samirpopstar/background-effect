@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.container {
+  width: 65vw;
+  height: 55vh;
+  background-image: url("https://www.imagelighteditor.com/img/bg-after.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  animation: carousal 20s linear infinite;
+  border-radius: 0.5rem;
+  box-shadow: 0 7px 29px 0 rgba(100, 100, 111, 0.2);
+}
+
+@keyframes carousal {
+    
+  20% {
+    background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/10/image-wallpaper-15.jpg");
+  }
+  40% {
+    background-image: url("https://th.bing.com/th/id/R.1ac8616cc26c5ffa5d4a124e068c447d?rik=Q3ad8plACqWAMQ&riu=http%3a%2f%2flovelyfotos.l.o.pic.centerblog.net%2fo%2f98a8ed98.jpg&ehk=oMZ4%2bUZ%2b2P7UvBelRgLJi%2fXMGMrpqfqtm%2bTC58Gqtbg%3d&risl=&pid=ImgRaw&r=0");
+  }
+
+  60% {
+    background-image: url("https://my.alfred.edu/zoom/_images/foster-lake.jpg");
+  }
+  80% {
+    background-image: url("https://wallpaperaccess.com/full/4958480.jpg");
+  }
+  100% {
+    background-image: url("https://www.imagelighteditor.com/img/bg-after.jpg");
+  }
+}
